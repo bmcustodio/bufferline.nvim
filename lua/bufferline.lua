@@ -276,7 +276,6 @@ function M.setup(conf)
   setup_commands()
   setup_autocommands(preferences)
   vim.o.tabline = "%!v:lua.nvim_bufferline()"
-  toggle_bufferline()
 end
 
 return M
